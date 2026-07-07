@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf740d6839858043b107952a2d521fa, type: 3}
+  m_Name: InspectViewData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: DataView
+      Entry: 7
+      Data: 0|System.Collections.Generic.HashSet`1[[BehaviorTree.BTNodeBase, Assembly-CSharp]],
+        System.Core
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|BehaviorTree.TimeLimit, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 22b38d85-4880-4432-8b35-7aeb1ca7277d
+    - Name: NodeName
+      Entry: 1
+      Data: TimeLimit
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 546
+    - Name: 
+      Entry: 4
+      Data: 642.850037
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNode
+      Entry: 7
+      Data: 2|Move, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a69d8ec9-9547-4d9b-81b9-3b4598e2382b
+    - Name: NodeName
+      Entry: 1
+      Data: Move
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 762.000061
+    - Name: 
+      Entry: 4
+      Data: 667.5001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: duration
+      Entry: 4
+      Data: 3
+    - Name: timeoutResult
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

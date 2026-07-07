@@ -1,0 +1,832 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6883918145744806818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5785012107782524148}
+  - component: {fileID: 152305318534498867}
+  - component: {fileID: 5445971694213373516}
+  - component: {fileID: 602155172537494682}
+  - component: {fileID: 3663232919711845126}
+  - component: {fileID: 3380164587935843880}
+  - component: {fileID: 5075459903835405645}
+  - component: {fileID: 8321286851224184769}
+  - component: {fileID: 5710037475628860240}
+  m_Layer: 11
+  m_Name: Slime
+  m_TagString: Monster
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5785012107782524148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!212 &152305318534498867
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  m_Enabled: 1
+  m_CastShadows: 2
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -876546973899608171, guid: fca6dd939d89afc439d2284eb698fe5a, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -2088994627, guid: 05cba5f03ddafeb4789c4ab5fcc50e4c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.25, y: 2.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!54 &5445971694213373516
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 116
+  m_CollisionDetection: 0
+--- !u!136 &602155172537494682
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  m_Material: {fileID: 13400000, guid: 53e50012b5ce7bf47b2ee7ce34818464, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 1527
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.64
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.65, z: 0}
+--- !u!95 &3663232919711845126
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c0c68516e8e4faa49918446b4ad7c310, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3380164587935843880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef836063a639a1644a096d3c721e90ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropTable:
+  - itemID: 107
+    dropChance: 1
+    minCount: 2
+    maxCount: 5
+  destroy: 1
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &5075459903835405645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae928ae0bc8b95c4badb481a49b7e30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 12
+  recycleTime: 120
+--- !u!114 &8321286851224184769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cc6ae8ac9e7e34baa8942dcdfb870a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 5710037475628860240}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: rootNode
+      Entry: 7
+      Data: 0|BehaviorTree.PrioritySequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 11241
+    - Name: NodeName
+      Entry: 1
+      Data: Root
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNodes
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BehaviorTree.BTNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 2|BehaviorTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: b08c0825-300b-4ea6-81b9-83822c9fd5a6
+    - Name: NodeName
+      Entry: 1
+      Data: Sequence
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 207
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNodes
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[BehaviorTree.BTNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 4|CheckHurt, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: d6f03d8b-3c20-443f-ae22-fdbedb49721b
+    - Name: NodeName
+      Entry: 1
+      Data: CheckHurt
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 426
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|BehaviorTree.TimeLimit, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 923126d4-8581-44dd-b993-8f7a6f6da1de
+    - Name: NodeName
+      Entry: 1
+      Data: TimeLimit
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 426
+    - Name: 
+      Entry: 4
+      Data: 102
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNode
+      Entry: 7
+      Data: 6|KnockbackAction, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 75c4e9f1-0a02-4d35-ae83-7e6baffc3d2e
+    - Name: NodeName
+      Entry: 1
+      Data: KnockbackAction
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 631
+    - Name: 
+      Entry: 4
+      Data: 102
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: duration
+      Entry: 4
+      Data: 0.2
+    - Name: timeoutResult
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|HurtAction, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 008c64e3-7dea-458d-9bcd-e634a7f62a72
+    - Name: NodeName
+      Entry: 1
+      Data: HurtAction
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 426
+    - Name: 
+      Entry: 4
+      Data: 193
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|BehaviorTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: ae320564-e9db-44b9-85b7-9fa214f6cf98
+    - Name: NodeName
+      Entry: 1
+      Data: Sequence
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 207
+    - Name: 
+      Entry: 4
+      Data: 288
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNodes
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[BehaviorTree.BTNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 10|CheckTarget, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 06a4e8c5-c656-4f77-8c00-a84918ce2821
+    - Name: NodeName
+      Entry: 1
+      Data: CheckTarget
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 426
+    - Name: 
+      Entry: 4
+      Data: 288
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|BehaviorTree.TimeLimit, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: d4ab48ee-3485-4a1e-96a7-d9ae6dafa63e
+    - Name: NodeName
+      Entry: 1
+      Data: TimeLimit
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 426
+    - Name: 
+      Entry: 4
+      Data: 394
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNode
+      Entry: 7
+      Data: 12|ChaseAction, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 1c0121e6-f28d-4fcb-8f93-abe8ce97c86f
+    - Name: NodeName
+      Entry: 1
+      Data: ChaseAction
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 631
+    - Name: 
+      Entry: 4
+      Data: 394
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: duration
+      Entry: 4
+      Data: 60
+    - Name: timeoutResult
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|BehaviorTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 71ae54f8-4992-41ed-ab57-f668c089ff72
+    - Name: NodeName
+      Entry: 1
+      Data: Sequence
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 207
+    - Name: 
+      Entry: 4
+      Data: 500.32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNodes
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[BehaviorTree.BTNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 15|BehaviorTree.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 1f05e51a-f7bb-4196-bdb3-4cc6548e90ae
+    - Name: NodeName
+      Entry: 1
+      Data: Parallel
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 388.000061
+    - Name: 
+      Entry: 4
+      Data: 499.999969
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNodes
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[BehaviorTree.BTNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 17|BehaviorTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 580d2b42-bb78-45e4-a0c7-7f63f70f35cf
+    - Name: NodeName
+      Entry: 1
+      Data: Selector
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 569
+    - Name: 
+      Entry: 4
+      Data: 500.000031
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNodes
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[BehaviorTree.BTNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 19|CheckGround, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: bda6c9fc-b0ac-46ca-b3d5-33c2c2f1753d
+    - Name: NodeName
+      Entry: 1
+      Data: CheckGround
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 761.5002
+    - Name: 
+      Entry: 4
+      Data: 499.999969
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|ChangeDir, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: ed8d3b7a-804a-4638-a7f7-3cec866a01d7
+    - Name: NodeName
+      Entry: 1
+      Data: ChangeDir
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 762.000061
+    - Name: 
+      Entry: 4
+      Data: 577
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|BehaviorTree.TimeLimit, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 22b38d85-4880-4432-8b35-7aeb1ca7277d
+    - Name: NodeName
+      Entry: 1
+      Data: TimeLimit
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 546
+    - Name: 
+      Entry: 4
+      Data: 642.850037
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ChildNode
+      Entry: 7
+      Data: 22|Move, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a69d8ec9-9547-4d9b-81b9-3b4598e2382b
+    - Name: NodeName
+      Entry: 1
+      Data: Move
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 762.000061
+    - Name: 
+      Entry: 4
+      Data: 667.5001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: duration
+      Entry: 4
+      Data: 3
+    - Name: timeoutResult
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Wait, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 1bf1e5d0-f3fb-4b96-b68c-897ba6aa3af4
+    - Name: NodeName
+      Entry: 1
+      Data: Wait
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 416
+    - Name: 
+      Entry: 4
+      Data: 706.000061
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: waitForTime
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|ChangeDir, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: daccf606-0ca8-41f7-a8ae-f0524322392c
+    - Name: NodeName
+      Entry: 1
+      Data: ChangeDir
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 416
+    - Name: 
+      Entry: 4
+      Data: 783.0001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _target
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &5710037475628860240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883918145744806818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc9ef7316109894883fdac92bbe38d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  maxHealth: 5
+  offset: 0.5
+  health: 0
+  isGround: 0
+  isHurt: 0
+  isDead: 0
+  detectGroundDistance: 10
+  moveDir: {x: 0, y: 0, z: 0}
+  theScale: {x: 0, y: 0, z: 0}
+  hurtDir: {x: 0, y: 0, z: 0}
+  Anim: {fileID: 0}
+  loseTargetDistance: 20
+  detectRadius: 15
+  damage: 1
+  target: {fileID: 0}
+  isFound: 0
+  knockbackForce: 10
+  knockbackTime: 0.2

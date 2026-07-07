@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbde06392a276be4bb5826714955e112, type: 3}
+  m_Name: item124
+  m_EditorClassIdentifier: 
+  itemID: 124
+  itemName: Steel
+  itemSprite: {fileID: 2074314407, guid: e7107fcdb2c28cd4582d23dc45643a31, type: 3}
+  itemPrefab: {fileID: 720844009474315392, guid: ebdce75e733c01e4487b5a3ca2994a5b, type: 3}
+  stackable: 1
+  maxStackCount: 64

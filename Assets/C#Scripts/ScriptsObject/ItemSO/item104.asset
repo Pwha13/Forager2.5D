@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbde06392a276be4bb5826714955e112, type: 3}
+  m_Name: item104
+  m_EditorClassIdentifier: 
+  itemID: 104
+  itemName: Hide
+  itemSprite: {fileID: -1865580225, guid: 1888edd62623f1a4baae4b4d1f28e3cb, type: 3}
+  itemPrefab: {fileID: 720844009474315392, guid: 3254930be8966e347b5ddbf2d030e615, type: 3}
+  stackable: 1
+  maxStackCount: 64

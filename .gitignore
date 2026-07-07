@@ -1,0 +1,23 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# IDE
+.idea/
+.vs/
+*.csproj
+*.sln
+*.sln.DotSettings.user
+*.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unity meta files MUST be included
+# !*.meta
