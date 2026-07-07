@@ -7,7 +7,7 @@
 - **引擎**: Unity 2022.3.62f2c1
 - **语言**: C#
 - **渲染管线**: Built-in Render Pipeline
-- **插件**: DOTween (动画), HybridCLR (热更新), Odin Inspector
+- **插件**: DOTween (动画), Odin Inspector
 - **输入系统**: Unity New Input System
 
 ## 核心系统
