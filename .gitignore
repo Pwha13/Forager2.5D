@@ -24,3 +24,6 @@ Thumbs.db
 
 # Claude Code local settings
 .claude/
+
+# HybridCLR generated data
+HybridCLRData/
