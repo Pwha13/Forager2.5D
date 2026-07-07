@@ -21,3 +21,6 @@ Thumbs.db
 
 # Unity meta files MUST be included
 # !*.meta
+
+# Claude Code local settings
+.claude/
