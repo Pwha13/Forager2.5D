@@ -6,7 +6,7 @@
 
 - **引擎**: Unity 2022.3.62f2c1
 - **语言**: C#
-- **渲染管线**: Built-in Render Pipeline
+- **渲染管线**: URP
 - **插件**: DOTween (动画), Odin Inspector
 - **输入系统**: Unity New Input System
 
@@ -55,6 +55,5 @@ Assets/
 | WASD | 移动 |
 | 鼠标左键 | 攻击/采集/交互 |
 | 鼠标右键 | 打开工作台/使用物品 |
-| E | 关闭 UI |
-| Tab | 背包 |
+| E | 背包与设置 |
 | 1-5 | 切换快捷栏工具 |
