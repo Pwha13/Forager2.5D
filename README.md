@@ -3,11 +3,11 @@
 > 一款 2.5D 视角的生存建造类 Unity 游戏
 
 <p align="center">
-  <img src="./gif1.gif" alt="游戏演示">
+  <img src="./assets/gif1.gif" alt="游戏演示">
 </p>
 
 <p align="center">
-  <img src="./gif2.gif" alt="建造演示">
+  <img src="./assets/gif2.gif" alt="建造演示">
 </p>
 
 ## 技术栈
