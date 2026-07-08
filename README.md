@@ -2,8 +2,8 @@
 
 > 一款 2.5D 视角的生存建造类 Unity 游戏
 
-![演示动图](./assets/gif1.gif)
-![演示动图](./assets/gif2.gif)
+![演示动图](./gif1.gif)
+![演示动图](./gif2.gif)
 
 ## 技术栈
 
