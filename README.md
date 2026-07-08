@@ -2,13 +2,10 @@
 
 > 一款 2.5D 视角的生存建造类 Unity 游戏
 
-<p align="center">
-  <img src="./assets/gif1.gif" alt="游戏演示">
-</p>
+![演示动图](./assets/gif1.gif)
+![演示动图](./assets/gif2.gif)
 
-<p align="center">
-  <img src="./assets/gif2.gif" alt="建造演示">
-</p>
+演示动图位于assets文件夹，若演示动图未加载，请自行打开
 
 ## 技术栈
 
